@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Test Suite - Balasiva K]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Full Test(failed)">
+    <classes>
+      <class name="features.LoginTest">
+        <methods>
+          <include name="TC04_login"/>
+          <include name="TC07_login"/>
+          <include name="beforeMethodSetup"/>
+          <include name="TC06_login"/>
+          <include name="TC03_login"/>
+          <include name="TC01_login"/>
+          <include name="closeBrowser"/>
+          <include name="TC05_login"/>
+          <include name="TC08_login"/>
+          <include name="TC02_login"/>
+        </methods>
+      </class> <!-- features.LoginTest -->
+    </classes>
+  </test> <!-- Full Test(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test Suite - Balasiva K] -->
