@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import pages.HomePage;
 import pages.admin.UserMgn_UserPage;
 import pages.login.LoginPage;
 import utils.CreateRandomName;
@@ -20,7 +19,6 @@ public class Preparation {
 
     public WebDriver driver;
     public LoginPage loginPage;
-    public HomePage homePage;
     public UserMgn_UserPage adminPage;
     public CreateRandomName name;
     public WebDriver getDriver() {
@@ -32,7 +30,6 @@ public class Preparation {
         System.setProperty(CHROME_BROWSER, CHROMEDRIVER_PATH);
         driver = new ChromeDriver();
         loginPage = new LoginPage(driver);
-        homePage = new HomePage(driver);
         adminPage = new UserMgn_UserPage(driver);
         name = new CreateRandomName();
         driver.manage().window().fullscreen();

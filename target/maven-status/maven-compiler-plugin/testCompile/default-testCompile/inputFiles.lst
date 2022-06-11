@@ -8,7 +8,6 @@ C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\features\Preparation.ja
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\admin\NationalitiesPage.java
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\admin\Qlification_MembershipPage.java
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\admin\Config_LocalizationPage.java
-C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\HomePage.java
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\pim\EmployeeListPage.java
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\admin\Org_LocationsPage.java
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\admin\Config_EmailSubScribPage.java
@@ -31,7 +30,6 @@ C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\pim\AddEmployeePa
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\admin\Config_SosMedAuthPage.java
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\directory\DirectoryPage.java
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\features\LoginTest.java
-C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\BasePage.java
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\pim\Config_TerminateReasnPage.java
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\pim\Config_DataImportPage.java
 C:\Users\kps\eclipse-workspace\OrangeMaven\src\test\java\pages\admin\Job_EmplymntStatPage.java

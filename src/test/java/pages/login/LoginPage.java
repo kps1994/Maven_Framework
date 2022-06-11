@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
-
 public class LoginPage {
 
     WebDriver driver;
@@ -39,14 +37,6 @@ public class LoginPage {
 
     public void submitLogin() {
         loginSubmitBtn.click();
-    }
-
-    public void verifyLoginErrorMessage(String error) {
-        assertThat(loginErrorMessage.getText(), containsString(error));
-    }
-
-    public void landingToDashboardPage() {
-        assertThat(driver.getCurrentUrl(), containsString("http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard"));
     }
 
     public void loginToOHRM(String name, String pasword) {

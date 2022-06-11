@@ -4,16 +4,6 @@
     <test name="Full Test">
         <classes>
             <class name="features.LoginTest">
-            <methods>
-                <include name="TC01_login"/>
-                <include name="TC02_login"/>
-                <include name="TC03_login"/>
-                <include name="TC04_login"/>
-                <include name="TC05_login"/>
-                <include name="TC06_login"/>
-                <include name="TC07_login"/>
-                <include name="TC08_login"/>
-            </methods>
         </class>
         </classes>
     </test>
